@@ -1,19 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"hello"
-)
+import "fmt"
 
+func multiply(a int, b int) int {
+	return a * b
+}
 func main() {
-	// Error
-	// const constant string = "Hello, World!"
-	// constant = "World! Hello"
-
-	var message string = hello.Hello()
-	message = "World! Hello"
-	fmt.Println(message)
-
-	test := "Hello"
-	fmt.Println(test)
+	fmt.Println(multiply(2, 2))
 }
