@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"hello"
-)
+import "fmt"
 
 func main() {
-	var message string = hello.Hello()
-	fmt.Println(message)
+	const constant string = "Hello, World!"
+	fmt.Println(constant)
 }
