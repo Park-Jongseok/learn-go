@@ -1,8 +1,7 @@
 package main
 
-import "fmt"
-
 func main() {
+	// Error
 	const constant string = "Hello, World!"
-	fmt.Println(constant)
+	constant = "World! Hello"
 }
