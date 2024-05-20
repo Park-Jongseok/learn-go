@@ -13,4 +13,7 @@ func main() {
 	var message string = hello.Hello()
 	message = "World! Hello"
 	fmt.Println(message)
+
+	test := "Hello"
+	fmt.Println(test)
 }
