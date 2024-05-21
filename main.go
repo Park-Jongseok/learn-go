@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	names := []string{"John", "Paul", "George", "Ringo", "Stuart"}
-	names = append(names, "Ricky")
-	fmt.Println(names)
+	stringMap := map[string]string{"name": "foo", "bar": "bar"}
+	for key, value := range stringMap {
+		fmt.Println(key, value)
+	}
 }
