@@ -3,11 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	a := 2
-	b := &a
-	fmt.Println(&a, b)
-	fmt.Println(a, *b)
-
-	*b = 3
-	fmt.Println(a)
+	names := [5]string{"John", "Paul", "George", "Ringo", "Stuart"}
+	// Error
+	// names[5] = "Stuart"
+	fmt.Println(names)
 }
