@@ -7,8 +7,8 @@ import (
 func superAdd(numbers ...int) int {
 	// Array
 	fmt.Println(numbers)
-	for i := 0; i < len(numbers); i++ {
-		fmt.Println(numbers[i])
+	for index, number := range numbers {
+		fmt.Println(index, number)
 	}
 	return 0
 }
