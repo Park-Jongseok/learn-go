@@ -9,3 +9,7 @@ go mod edit -replace hello=./hello
 go mod tidy
 go run .
 ```
+
+```sh
+git diff --no-color -U5 > detailed_chagnes.diff
+```
